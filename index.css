@@ -1,8 +1,1 @@
-.fstPage {
-         
-    background-image:url("https://github.com/alomeli2/CNIT133HW1/blob/gh-pages/spaceunicorn.png");
-    /*background-color: lightgray;*/
-    height: 700px;
-    width:100%;
-    background-size:cover;
-}
+<div class="img-banner" :style="{'background-image': 'url(' + require('https://github.com/alomeli2/CNIT133HW1/blob/gh-pages/spaceunicorn.png') + ')'}"></div>
